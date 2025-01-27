@@ -2,6 +2,21 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Deployment Details
+• This project is currently deployed via Netlify using this GitHub repository. You can view the live application here: [Connect 4 App.](https://connect-4-app-react.netlify.app/)
+
+Manual Deployment Instructions
+Build the project:
+npm run build or npm run-script build
+Wait for the build process to complete. This will generate a build folder in your project directory.
+
+Deploy to Netlify:
+
+Go to the Netlify Dashboard.
+Click on "Add new site" > "Deploy manually".
+Drag and drop the build folder into the upload area, or select it for upload.
+Your project should now be deployed on Netlify.
+
 ## Available Scripts
 
 In the project directory, you can run:
