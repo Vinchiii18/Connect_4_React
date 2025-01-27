@@ -13,14 +13,14 @@ const GameBoard = () => {
     const [gameState, setGameState] = useState(GAME_STATE_PLAYING);
     const [winPlayer, setWinPlayer] = useState(NO_PLAYER)
 
-    console.log(gameBoard);
+    // console.log(gameBoard);
 
     useEffect(() => {
         initGame();
      }, [])
 
     const initGame = () => {
-        console.log('init game!')
+        // console.log('init game!')
         setGameBoard(Array(NUM_CIRCLES).fill(NO_PLAYER));
         setCurrentPlayer(PLAYER_1);
         setGameState(GAME_STATE_PLAYING);
@@ -62,8 +62,8 @@ const GameBoard = () => {
 
         setCurrentPlayer(currentPlayer === PLAYER_1 ? PLAYER_2 : PLAYER_1);
 
-        console.log(gameBoard);
-        console.log(currentPlayer);
+        // console.log(gameBoard);
+        // console.log(currentPlayer);
     }
 
     const renderCircle = id => {
