@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Deployment Details
-• This project is currently deployed via Netlify using this GitHub repository. You can view the live application here: Connect 4 App.
+• This project is currently deployed via Netlify using this GitHub repository. You can view the live application here: [Connect 4 App.](https://connect-4-app-react.netlify.app/)
 
 Manual Deployment Instructions
 Build the project:
